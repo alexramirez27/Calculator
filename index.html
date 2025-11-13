@@ -8,84 +8,47 @@
 </head>
 <body>
     <div class="calculator-container">
-        <h1>Calculator</h1>
+        <div class="first-section">
+            <h1>Calculator</h1>
+            <div class="battery"></div>
+        </div>
+        <!-- <h1>Calculator</h1> -->
         <div class="screen"></div>
         <div class="button-section">
             <!-- First row -->
             <div class="row">
-                <div>
-                    <!-- Add a delete logo -->
-                    <img> 
-                </div>
-                <div>
-                    <label>CLR</label>
-                </div>
-                <div>
-                    <label>x squared</label>
-                </div>
-                <div>
-                    <label>%</label>
-                </div>
+                <div class="btn delete" id="delete">&#9664;</div>
+                <div class="btn">CLR</div>
+                <div class="btn squared"><label>x<sup>2</sup></div>
+                <div class="btn operator-btn" id="divides">/</div>
             </div>
             <!-- Second row -->
             <div class="row">
-                <div>
-                    <label>7</label>
-                </div>
-                <div>
-                    <label>8</label>
-                </div>
-                <div>
-                    <label>9</label>
-                </div>
-                <div>
-                    <label>*</label>
-                </div>
+                <div class="btn" id="seven">7</div>
+                <div class="btn" id="eight">8</div>
+                <div class="btn" id="nine">9</div>
+                <div class="btn operator-btn" id="times">*</div>
             </div>
             <!-- Third row -->
             <div class="row">
-                <div>
-                    <label>4</label>
-                </div>
-                <div>
-                    <label>5</label>
-                </div>
-                <div>
-                    <label>6</label>
-                </div>
-                <div>
-                    <label>-</label>
-                </div>
+                <div class="btn" id="four">4</div>
+                <div class="btn" id="five">5</div>
+                <div class="btn" id="six">6</div>
+                <div class="btn operator-btn" id="minus">-</div>
             </div>
             <!-- Fourth row -->
             <div class="row">
-                <div>
-                    <label>1</label>
-                </div>
-                <div>
-                    <label>2</label>
-                </div>
-                <div>
-                    <label>3</label>
-                </div>
-                <div>
-                    <label>+</label>
-                </div>
+                <div class="btn" id="one">1</div>
+                <div class="btn" id="two">2</div>
+                <div class="btn" id="three">3</div>
+                <div class="btn operator-btn" id="plus">+</div>
             </div>
             <!-- Fifth row -->
             <div class="row">
-                <div>
-                    <label>+/-</label>
-                </div>
-                <div>
-                    <label>0</label>
-                </div>
-                <div>
-                    <label>.</label>
-                </div>
-                <div>
-                    <label>=</label>
-                </div>
+                <div class="btn">+/-</div>
+                <div class="btn" id="zero">0</div>
+                <div class="btn" id="dot">.</div>
+                <div class="btn operator-btn" id="equals">=</div>
             </div>
         </div>
     </div>

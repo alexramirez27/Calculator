@@ -1,0 +1,102 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.calculator-container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-bottom: 10px;
+    background-color: gray;
+}
+
+.row {
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 450px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 2px solid black;
+    width: 100px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    cursor: pointer;
+    font-size: 28px;
+    transition: background-color 0.15s ease;
+}
+
+.screen {
+    margin-left: 25px;
+    border: 2px solid black;
+    width: 445px;
+    height: 125px;
+    margin-bottom: 20px;
+    background-color: rgb(191, 230, 224);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 72px;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 20px 25px;
+    font-size: 48px;
+}
+
+.operator-btn {
+    background-color: rgba(1, 12, 168, 0.801);
+    color: white;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* Darker on hover */
+.btn:hover {
+  background-color: rgb(185, 185, 185);
+}
+
+/* Lighter when clicked or held */
+.btn:active {
+  background-color: rgb(233, 232, 232);
+}
+
+/* Darker on hover */
+.operator-btn:hover {
+    background-color: rgba(0, 9, 136, 0.801);
+}
+
+/* Lighter when clicked or held */
+.operator-btn:active {
+    background-color: rgba(0, 14, 209, 0.801);
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.battery {
+    background-color: rgb(68, 68, 68);
+    width: 175px;
+    height: 50px;
+    margin-right: 25px;
+}
